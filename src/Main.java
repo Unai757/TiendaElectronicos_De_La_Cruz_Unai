@@ -64,7 +64,7 @@ public class Main {
                     }
                     break;
                 case 4:
-                    //En este método llamamos al de generarFactura
+                    //En este método llamamos a generarFactura
                     tienda.generarFactura();
                     System.out.println("La factura ha sido generada en el archivo llamado facturas.txt");
                     break;
