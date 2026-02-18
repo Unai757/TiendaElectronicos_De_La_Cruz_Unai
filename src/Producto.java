@@ -49,7 +49,7 @@ public abstract class Producto {
         return "Producto{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
-                ", precio=" + precio +
+                ", precio=" + precio + '\'' +
                 ", marca='" + marca + '\'' +
                 ", stock=" + stock;
     }

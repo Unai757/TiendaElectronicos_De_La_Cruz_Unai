@@ -127,7 +127,7 @@ public class Tienda {
                 precioTotal += precioProducto;
 
             }
-            bw.write("El precio total de todos los productos comprados es " + precioTotal);
+            bw.write("El precio total de todos los productos comprados es " + precioTotal + " €");
             bw.newLine();
             bw.write("-------------------------------------------");
         } catch (IOException e) {

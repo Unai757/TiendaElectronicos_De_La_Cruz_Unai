@@ -27,7 +27,6 @@ public class Main {
             System.out.println("2-Comprar");
             System.out.println("3-Buscar producto");
             System.out.println("4-Finalizar compra y sacar factura");
-            System.out.println("0-Salir del programa");
             System.out.println("---------------------------");
             int opcion = sc.nextInt();
 
@@ -66,11 +65,9 @@ public class Main {
                 case 4:
                     //En este método llamamos a generarFactura
                     tienda.generarFactura();
-                    System.out.println("La factura ha sido generada en el archivo llamado facturas.txt");
-                    break;
-                case 0:
-                    System.out.println("Hasta luego muchas gracias por su visita");
+                    System.out.println("La factura ha sido generada en el archivo llamado facturas.txt, !Muchas gracias por su visita¡");
                     salir = true;
+                    break;
 
             }
         }
